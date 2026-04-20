@@ -1,3 +1,16 @@
+const express = require('express');
+const app = express();
+
+app.get('/', (req, res) => {
+  res.send('OK');
+});
+
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+  console.log('Web server chạy...');
+});
+
+
 const { Client, GatewayIntentBits } = require('discord.js');
 
 const client = new Client({
