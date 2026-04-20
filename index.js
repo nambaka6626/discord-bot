@@ -88,17 +88,6 @@ async function checkAFK() {
 
           console.log(`Moved AFK: ${member.user.tag}`);
 
-          // 🔹 Gửi thông báo
-          const channel = member.guild.channels.cache.get(LOG_CHANNEL_ID);
-
-          if (channel) {
-            const minutes = AFK_TIME / 60000;
-
-            channel.send(
-              `Cục cức trôi sông, hận đời lông bông\nBro ${member} chết trôi sông vì đã afk ${minutes} phút, hẹ hẹ~`
-            );
-          }
-
           // reset tránh spam
           lastActive.set(member.id, now);
 
