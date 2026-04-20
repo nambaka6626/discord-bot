@@ -82,7 +82,7 @@ async function checkAFK() {
             const minutes = AFK_TIME / 60000;
 
             channel.send(
-              `Cục trôi sông, hận đời lông bông\nBro ${member} chết trôi sông vì đã afk ${minutes} phút, hẹ hẹ~`
+              `Cục cức trôi sông, hận đời lông bông\nBro ${member} chết trôi sông vì đã afk ${minutes} phút, hẹ hẹ~`
             );
           }
 
