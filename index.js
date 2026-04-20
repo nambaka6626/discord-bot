@@ -97,4 +97,4 @@ async function checkAFK() {
   });
 }
 
-client.login('process.env.TOKEN');
+client.login(process.env.TOKEN);
