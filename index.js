@@ -97,4 +97,4 @@ async function checkAFK() {
   });
 }
 
-client.login('MTQ5NTcxMjA5Nzk2NTgzODQ4Nw.GdPmpE.OvmrACIvUCtBBHLXtUi2z6JcQgLygfSb3X6YQ0');
+client.login('process.env.TOKEN');
